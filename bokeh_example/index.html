@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="ffcc132d-dbd5-45f4-864e-35f77d2d130d" data-root-id="p1088" style="display: contents;"></div>
+  
+    <script type="application/json" id="p1150">
+      {"a3222991-8594-4dd2-a615-f2c90e50b7d0":{"version":"3.2.1","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1088","attributes":{"width":800,"x_range":{"type":"object","name":"DataRange1d","id":"p1090"},"y_range":{"type":"object","name":"FactorRange","id":"p1098","attributes":{"factors":["Hennessey Venom F5","Koenigsegg Regera","Bugatti Chiron","NIO EP9","Rimac Concept One","Aston Martin Valkyrie","McLaren P1 LM","Ferrari LaFerrari"]}},"x_scale":{"type":"object","name":"LinearScale","id":"p1099"},"y_scale":{"type":"object","name":"CategoricalScale","id":"p1100"},"title":{"type":"object","name":"Title","id":"p1091","attributes":{"text":"Cars - Top Horsepower"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1125","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1042","attributes":{"selected":{"type":"object","name":"Selection","id":"p1043","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1044"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAA="},"shape":[8],"dtype":"int32","order":"little"}],["Car",{"type":"ndarray","array":["Hennessey Venom F5","Koenigsegg Regera","Bugatti Chiron","NIO EP9","Rimac Concept One","Aston Martin Valkyrie","McLaren P1 LM","Ferrari LaFerrari"],"shape":[8],"dtype":"object","order":"little"}],["Horsepower",{"type":"ndarray","array":{"type":"bytes","data":"QAYAANwFAADHBQAAPQUAAMgEAABqBAAA2gMAALYDAAA="},"shape":[8],"dtype":"int32","order":"little"}],["Price",{"type":"ndarray","array":["$1.6M","$2M"," $3.4M","1.48M","$1M","$3.2M","$3.7M","$1M"],"shape":[8],"dtype":"object","order":"little"}],["Image",{"type":"ndarray","array":["https://autowise.com/wp-content/uploads/2018/06/Hennessey-Venom-F5-15.jpg","https://autowise.com/wp-content/uploads/2018/06/Regera_front_banner2.jpg","https://autowise.com/wp-content/uploads/2018/06/chiron-768x320.webp","https://autowise.com/wp-content/uploads/2018/06/nio-ep9-1.webp","https://autowise.com/wp-content/uploads/2018/06/rimac.webp","https://autowise.com/wp-content/uploads/2018/06/aston-martin-valkyrie-9-720x720.webp","https://autowise.com/wp-content/uploads/2018/06/lanzante-p1-gtr-mclaren-2017-4.webp","https://autowise.com/wp-content/uploads/2018/06/Ferrari-LaFerrari-three-quarter-1260x570.webp"],"shape":[8],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1126","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1127"}}},"glyph":{"type":"object","name":"HBar","id":"p1122","attributes":{"y":{"type":"field","field":"Car"},"height":{"type":"value","value":0.5},"right":{"type":"field","field":"Horsepower"},"line_color":{"type":"value","value":"#1f77b4"},"fill_color":{"type":"field","field":"Car","transform":{"type":"object","name":"CategoricalColorMapper","id":"p1118","attributes":{"palette":["#084594","#2171b5","#4292c6","#6baed6","#9ecae1","#c6dbef","#deebf7","#f7fbff"],"factors":["Hennessey Venom F5","Koenigsegg Regera","Bugatti Chiron","NIO EP9","Rimac Concept One","Aston Martin Valkyrie","McLaren P1 LM","Ferrari LaFerrari"]}}},"fill_alpha":{"type":"value","value":0.8}}},"nonselection_glyph":{"type":"object","name":"HBar","id":"p1123","attributes":{"y":{"type":"field","field":"Car"},"height":{"type":"value","value":0.5},"right":{"type":"field","field":"Horsepower"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"Car","transform":{"id":"p1118"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"HBar","id":"p1124","attributes":{"y":{"type":"field","field":"Car"},"height":{"type":"value","value":0.5},"right":{"type":"field","field":"Horsepower"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"Car","transform":{"id":"p1118"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1136","attributes":{"data_source":{"id":"p1042"},"view":{"type":"object","name":"CDSView","id":"p1137","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1138"}}},"glyph":{"type":"object","name":"HBar","id":"p1133","attributes":{"y":{"type":"field","field":"Car"},"height":{"type":"value","value":0.5},"right":{"type":"field","field":"Horsepower"},"line_color":{"type":"value","value":"#1f77b4"},"fill_color":{"type":"field","field":"Car","transform":{"type":"object","name":"CategoricalColorMapper","id":"p1129","attributes":{"palette":["#084594","#2171b5","#4292c6","#6baed6","#9ecae1","#c6dbef","#deebf7","#f7fbff"],"factors":["Hennessey Venom F5","Koenigsegg Regera","Bugatti Chiron","NIO EP9","Rimac Concept One","Aston Martin Valkyrie","McLaren P1 LM","Ferrari LaFerrari"]}}},"fill_alpha":{"type":"value","value":0.8}}},"nonselection_glyph":{"type":"object","name":"HBar","id":"p1134","attributes":{"y":{"type":"field","field":"Car"},"height":{"type":"value","value":0.5},"right":{"type":"field","field":"Horsepower"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"Car","transform":{"id":"p1129"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"HBar","id":"p1135","attributes":{"y":{"type":"field","field":"Car"},"height":{"type":"value","value":0.5},"right":{"type":"field","field":"Horsepower"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"Car","transform":{"id":"p1129"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1097","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1111"},{"type":"object","name":"BoxSelectTool","id":"p1112","attributes":{"renderers":"auto","overlay":{"type":"object","name":"BoxAnnotation","id":"p1113","attributes":{"syncable":false,"level":"overlay","visible":false,"editable":true,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"ZoomInTool","id":"p1114","attributes":{"renderers":"auto"}},{"type":"object","name":"ZoomOutTool","id":"p1115","attributes":{"renderers":"auto"}},{"type":"object","name":"SaveTool","id":"p1116"},{"type":"object","name":"ResetTool","id":"p1117"},{"type":"object","name":"HoverTool","id":"p1147","attributes":{"renderers":"auto","tooltips":"\n    &lt;div&gt;\n        &lt;h3&gt;@Car&lt;/h3&gt;\n        &lt;div&gt;&lt;strong&gt;Price: &lt;/strong&gt;@Price&lt;/div&gt;\n        &lt;div&gt;&lt;strong&gt;HP: &lt;/strong&gt;@Horsepower&lt;/div&gt;\n        &lt;div&gt;&lt;img src=\"@Image\" alt=\"\" width=\"200\"/&gt;&lt;/div&gt;\n    &lt;/div&gt;\n"}}]}},"left":[{"type":"object","name":"CategoricalAxis","id":"p1106","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1107"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1108"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1109"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1101","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1102","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1103"},"axis_label":"Horsepower","major_label_policy":{"type":"object","name":"AllLabels","id":"p1104"}}}],"center":[{"type":"object","name":"Grid","id":"p1105","attributes":{"axis":{"id":"p1101"}}},{"type":"object","name":"Grid","id":"p1110","attributes":{"dimension":1,"axis":{"id":"p1106"}}},{"type":"object","name":"Legend","id":"p1128","attributes":{"label_text_font_size":"10px","items":[{"type":"object","name":"LegendItem","id":"p1139","attributes":{"label":{"type":"value","value":"Aston Martin Valkyrie"},"renderers":[{"id":"p1136"}],"index":5}},{"type":"object","name":"LegendItem","id":"p1140","attributes":{"label":{"type":"value","value":"Bugatti Chiron"},"renderers":[{"id":"p1136"}],"index":2}},{"type":"object","name":"LegendItem","id":"p1141","attributes":{"label":{"type":"value","value":"Ferrari LaFerrari"},"renderers":[{"id":"p1136"}],"index":7}},{"type":"object","name":"LegendItem","id":"p1142","attributes":{"label":{"type":"value","value":"Hennessey Venom F5"},"renderers":[{"id":"p1136"}],"index":0}},{"type":"object","name":"LegendItem","id":"p1143","attributes":{"label":{"type":"value","value":"Koenigsegg Regera"},"renderers":[{"id":"p1136"}],"index":1}},{"type":"object","name":"LegendItem","id":"p1144","attributes":{"label":{"type":"value","value":"McLaren P1 LM"},"renderers":[{"id":"p1136"}],"index":6}},{"type":"object","name":"LegendItem","id":"p1145","attributes":{"label":{"type":"value","value":"NIO EP9"},"renderers":[{"id":"p1136"}],"index":3}},{"type":"object","name":"LegendItem","id":"p1146","attributes":{"label":{"type":"value","value":"Rimac Concept One"},"renderers":[{"id":"p1136"}],"index":4}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p1150').textContent;
+              const render_items = [{"docid":"a3222991-8594-4dd2-a615-f2c90e50b7d0","roots":{"p1088":"ffcc132d-dbd5-45f4-864e-35f77d2d130d"},"root_ids":["p1088"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
