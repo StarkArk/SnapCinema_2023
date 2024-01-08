@@ -30,11 +30,11 @@ Have you ever wondered if movie trailers had any effect on the success of a movi
 
 ## **Visuals:**
 
-![Alt text](Screenshot1.png)
-![Alt text](Screenshot2.png)
-![Alt text](Screenshot3.png)
-![Alt text](Screenshot4.png)
-![Alt text](Screenshot5.png)
+![Alt text](Images/Screenshot1.png)
+![Alt text](Images/Screenshot2.png)
+![Alt text](Images/Screenshot3.png)
+![Alt text](Images/Screenshot4.png)
+![Alt text](Images/Screenshot5.png)
 
 
 
