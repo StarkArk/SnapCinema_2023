@@ -2,6 +2,8 @@
 
 **SnapCinema: 2023 edition**
 
+[Web Dashboard](https://danielmilesrose.github.io/)
+
 ## **Description:**  
 Attention all movie buffs! It is now January 2024 and our 2023 Movie Wrap is overdue! Our project takes a deep dive into all of the cinematic feats of 2023 and explores different topics regarding these films.  
 
